@@ -11,7 +11,7 @@
 
 Title:  First Test Assignment for Virtual Assistant/Junior Project Manager at Ellty
 
-This is a test repository to verify and evaluate the skills and ability of an aspiring assitant of Ellty to use Git, VSCode, and Markdown. The contents of this repository includes installation instructions of cloning respositories, dependencies, and how to run the project locally. The repository also includes; a description on how to start a React Application, outline guidelines for repository contributors and licenses. 
+This is a test repository to verify and evaluate the skills and ability of an aspiring assistant of Ellty to use Git, VSCode, and Markdown. The contents of this repository include installation instructions for cloning repositories, dependencies, and how to run the project locally. The repository also includes; a description of how to start a React Application and outlines guidelines for repository contributors and licenses. 
 
 ## Installation Instructions
 
@@ -22,17 +22,17 @@ This is a test repository to verify and evaluate the skills and ability of an as
 
 ### 1. Create a repository:
 * Create a new repository in GitHub. To create one simply the NEW Button in the GitHub Dashboard.
-* Assign a Repository name. In this case I used test-assistant-repo and made it Public as instructed.
-* Before clicking the Create Repository, initialized it first by adding a readme.md file.
+* Assign a Repository name. In this project, I used test-assistant-repo and made it public as instructed.
+* Before clicking the Create Repository, initialize it first by adding a readme.md file.
     * If you forgot to add the readme file you can use other software/apps to create one. 
         * I used VSCode and created a file there by clicking the Ctrl + N.
         * After working on the readme file. Save it as a markdown file. Doing so would add the file extension .md beside readme.
-    * Click Create Repository and you will be redirected again in the dashboard.
+    * Click Create Repository and you will be redirected again to the dashboard.
     * Click test-assistant-repo to view your newly created repository.
 
 ### 2. Clone the repository:
 
-1. After viewing your repository, you can now click the CODE button  to copy the clone url.
+1. After viewing your repository, you can now click the CODE button  to copy the clone URL.
 2. Click the copy button.
 3. Make a Clone Repository
 
@@ -48,7 +48,7 @@ This is a test repository to verify and evaluate the skills and ability of an as
     ```
     * Possible Problem: Missing Desktop Directory
 
-        If you encountered a problem saying it cannot find the path because it doesnt exist. It is probably because you dont have a Desktop Directory.
+        If you encounter a problem saying it cannot find the path because it doesn't exist. It is probably because you don't have a Desktop Directory.
 
         * To add it simply type in
         ```sh 
@@ -69,17 +69,17 @@ This is a test repository to verify and evaluate the skills and ability of an as
     
         If you encountered a problem saying "The term 'git' is not recognized as a name of a cmdlet, function, script file, or executable program." Try this, if not, proceed.
 
-        * Click windows logo and search environment variables.
+        * Click the Windows logo and search environment variables.
         * Go to Advanced then click the environment variables button at the bottom.
         * Under System Variables click Path then click the edit button.
-        * Now go to file explorer and copy the path where the git.exe file can be found. (e.g. C:\Program Files\Git\bin)
+        * Now go to File Explorer and copy the path where the git.exe file can be found. (e.g. C:\Program Files\Git\bin)
         * Go back to the edit environment variable then click the New Button. Paste the path you copied earlier then click OK.
 
 3. Go to your Desktop and you can now see your repository folder. Inside it you can see your readme.md file that you initialized earlier.
 
 #### Through Git Bash
-1. Create Folder in Main Drive
-    * Go to your main drive in file explorer and create a folder. In my case a named it SampleGit.
+1. Create a Folder in Main Drive
+    * Go to your main drive in File Explorer and create a folder. In my case, I named it SampleGit.
 2. Open Git Bash app and type in
     ```sh
         cd "C:\SampleGit"
@@ -96,7 +96,7 @@ After cloning you need to navigate the repository directory as it is necessary i
 ```
     cd test-assistant-repo
 ```   
-After this you can run different commands.
+After this, you can run different commands.
 
 ### 4. Install dependencies:
 To ensure there is no error when making the react app, you should install first the dependencies. As this includes the dependencies required to create and run a react application. With that, type in:
@@ -105,7 +105,7 @@ To ensure there is no error when making the react app, you should install first 
 ```
 
 ## Usage
-1. After installing dependencies needed, type in to initiate your project with the configuration specified in the package.json file that was installed recently. Type in:
+1. After installing the dependencies needed, type in to initiate your project with the configuration specified in the package.json file that was installed recently. Type in:
     ```sh
         npm start
     ```
@@ -120,7 +120,7 @@ You can change "app" to any application name you will come up with.
 
 4. Open the folder using VSCode. File> Open Folder> test-assistant-repo
 
-5. In VSCode explorer, find the "app" folder, then click the src folder. Here you will see the App.js file which we will use to display a simple "Hello, World!" message.
+5. In VSCode Explorer, find the "app" folder, then click the src folder. Here you will see the App.js file which we will use to display a simple "Hello, World!" message.
 
 6. Paste this code: 
     ```js
@@ -173,7 +173,7 @@ Hello! Welcome to my project! I appreciate your interest in contributing to this
         `git push origin feature-branch`
     ```
 5. Open a pull request. 
-    * Please wait for your requests to be reviewed and be responsive to any feeback and make changes if necessary.
+    * Please wait for your requests to be reviewed be responsive to any feedback and make changes if necessary.
 
 #### Acknowledgements
 Thank you for considering to contribute in this project! I appreciate your efforts and input.
