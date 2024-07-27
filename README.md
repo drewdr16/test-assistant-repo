@@ -122,13 +122,22 @@ You can change "app" to any application name you will come up with.
 
 5. In VSCode explorer, find the "app" folder, then click the src folder. Here you will see the App.js file which we will use to display a simple "Hello, World!" message.
 
-6. Just below this code: 
-    ```
-        <div className="App">
-    ```
-    Type in: 
-    ```
-        <h1>Hello, World!</h1>
+6. Paste this code: 
+    ```js
+        import React from 'react';
+            function App() {
+            return (
+                <div className="App">
+                <header className="App-header">
+                    <p>
+                    Hello, World!
+                    </p>
+                </header>
+                </div>
+            );
+            }
+
+            export default App;
     ```
 
 7. Go to the terminal by clicking Ctrl + `
