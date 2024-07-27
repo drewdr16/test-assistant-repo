@@ -21,14 +21,16 @@ This is a test repository to verify and evaluate the skills and ability of an as
 4. [Install dependencies](#install-dependencies)
 
 ### 1. Create a repository:
-* Create a new repository in GitHub. To create one simply the NEW Button in the GitHub Dashboard.
-* Assign a Repository name. In this project, I used test-assistant-repo and made it public as instructed.
-* Before clicking the Create Repository, initialize it first by adding a readme.md file.
+1. Create a new repository in GitHub. To create one simply the NEW Button in the GitHub Dashboard.
+2. Assign a Repository name. In this project, I used test-assistant-repo and made it public as instructed.
+3. Before clicking the Create Repository, initialize it first by adding a readme.md file.
+   
     * If you forgot to add the readme file you can use other software/apps to create one. 
         * I used VSCode and created a file there by clicking the Ctrl + N.
         * After working on the readme file. Save it as a markdown file. Doing so would add the file extension .md beside readme.
-    * Click Create Repository and you will be redirected again to the dashboard.
-    * Click test-assistant-repo to view your newly created repository.
+          
+4. Click Create Repository and you will be redirected again to the dashboard.
+5. Click test-assistant-repo to view your newly created repository.
 
 ### 2. Clone the repository:
 
@@ -46,9 +48,9 @@ This is a test repository to verify and evaluate the skills and ability of an as
     ```sh
         cd ~\Desktop
     ```
-    * Possible Problem: Missing Desktop Directory
-
-        If you encounter a problem saying it cannot find the path because it doesn't exist. It is probably because you don't have a Desktop Directory.
+      #### Possible Problem: Missing Desktop Directory
+   
+         If you encounter a problem saying it cannot find the path because it doesn't exist. It is probably because you don't have a Desktop Directory.
 
         * To add it simply type in
         ```sh 
@@ -60,12 +62,12 @@ This is a test repository to verify and evaluate the skills and ability of an as
                 ```. 
         After doing this, it should now work.
 
-2. Then to create the clone, type in:
+3. Then to create the clone, type in:
     ```sh
         git clone <https://github.com/YOUR_USERNAME/test-assistant-repo.git>
     ```
 
-    * Possible Problem: Git not recognized
+   #### Possible Problem: Git not recognized
     
         If you encountered a problem saying "The term 'git' is not recognized as a name of a cmdlet, function, script file, or executable program." Try this, if not, proceed.
 
@@ -75,17 +77,18 @@ This is a test repository to verify and evaluate the skills and ability of an as
         * Now go to File Explorer and copy the path where the git.exe file can be found. (e.g. C:\Program Files\Git\bin)
         * Go back to the edit environment variable then click the New Button. Paste the path you copied earlier then click OK.
 
-3. Go to your Desktop and you can now see your repository folder. Inside it you can see your readme.md file that you initialized earlier.
+4. Go to your Desktop and you can now see your repository folder. Inside it you can see your readme.md file that you initialized earlier.
 
 #### Through Git Bash
 1. Create a Folder in Main Drive
     * Go to your main drive in File Explorer and create a folder. In my case, I named it SampleGit.
+
 2. Open Git Bash app and type in
     ```sh
         cd "C:\SampleGit"
     ```
 3. Then to create the clone, type in:
-        ```sh
+        ```
             git clone <https://github.com/YOUR_USERNAME/test-assistant-repo.git>
         ```
 4. Go to your Desktop and you can now see your repository folder. Inside it you can see your readme.md file that you initialized earlier.
@@ -110,12 +113,10 @@ To ensure there is no error when making the react app, you should install first 
         npm start
     ```
 
-2. To start the React application, use the following command:
+2. To start the React application, use the following command: You can change "app" to any application name you come up with.
     ```sh
         npx create-react-app "app"
     ```
-You can change "app" to any application name you will come up with.
-
 3. After installing, check the repository in your file manager and you will see that a new folder has been added containing the name that you have set in the command earlier.
 
 4. Open the folder using VSCode. File> Open Folder> test-assistant-repo
@@ -173,10 +174,10 @@ Hello! Welcome to my project! I appreciate your interest in contributing to this
         `git push origin feature-branch`
     ```
 5. Open a pull request. 
-    * Please wait for your requests to be reviewed be responsive to any feedback and make changes if necessary.
+    * Please wait for your requests to be reviewed and be responsive to any feedback or make changes, if necessary.
 
 #### Acknowledgements
-Thank you for considering to contribute in this project! I appreciate your efforts and input.
+Thank you for considering to contribute in this project! I appreciate your efforts and input. Happy Coding!
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
